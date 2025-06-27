@@ -23,6 +23,7 @@ public class FirstTestCase {
 	void closeapp()
 	{
 		System.out.println("close application");
+		System.out.println("closing window");
 
 	}
 
