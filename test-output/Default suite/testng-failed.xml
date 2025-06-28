@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngDay1.HRMTest">
+      <class name="testngDay2.AssertionsDemo">
         <methods>
-          <include name="testlogin"/>
-          <include name="testlogout"/>
-          <include name="testlogo"/>
+          <include name="testTitle"/>
         </methods>
-      </class> <!-- testngDay1.HRMTest -->
+      </class> <!-- testngDay2.AssertionsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
