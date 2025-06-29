@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T20:41:50 IST" name="Default suite" finished-at="2025-06-28T20:41:50 IST" duration-ms="72">
+  <suite started-at="2025-06-29T18:43:16 IST" name="Grouping" finished-at="2025-06-29T18:43:16 IST" duration-ms="76">
     <groups>
+      <group name="functional">
+        <method signature="LoginTestsGroups3.PaymentDollar()[pri:2, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentDollar" class="testngDay3.LoginTestsGroups3"/>
+        <method signature="LoginTestsGroups3.PaymentRupees()[pri:1, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentRupees" class="testngDay3.LoginTestsGroups3"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="LoginTestsGroups3.PaymentDollar()[pri:2, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentDollar" class="testngDay3.LoginTestsGroups3"/>
+        <method signature="LoginTestsGroups3.PaymentRupees()[pri:1, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentRupees" class="testngDay3.LoginTestsGroups3"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTestsGroups3.PaymentDollar()[pri:2, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentDollar" class="testngDay3.LoginTestsGroups3"/>
+        <method signature="LoginTestsGroups3.PaymentRupees()[pri:1, instance:testngDay3.LoginTestsGroups3@53aac487]" name="PaymentRupees" class="testngDay3.LoginTestsGroups3"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-06-28T20:41:50 IST" name="Default test" finished-at="2025-06-28T20:41:50 IST" duration-ms="72">
-      <class name="testngDay2.AssertionsDemo">
-        <test-method signature="testTitle()[pri:0, instance:testngDay2.AssertionsDemo@47d9a273]" started-at="2025-06-28T20:41:50 IST" name="testTitle" finished-at="2025-06-28T20:41:50 IST" duration-ms="21" status="PASS">
+    <test started-at="2025-06-29T18:43:16 IST" name="Test Group" finished-at="2025-06-29T18:43:16 IST" duration-ms="76">
+      <class name="testngDay3.LoginTestsGroups3">
+        <test-method signature="PaymentRupees()[pri:1, instance:testngDay3.LoginTestsGroups3@53aac487]" started-at="2025-06-29T18:43:16 IST" name="PaymentRupees" finished-at="2025-06-29T18:43:16 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-      </class> <!-- testngDay2.AssertionsDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- PaymentRupees -->
+        <test-method signature="PaymentDollar()[pri:2, instance:testngDay3.LoginTestsGroups3@53aac487]" started-at="2025-06-29T18:43:16 IST" name="PaymentDollar" finished-at="2025-06-29T18:43:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentDollar -->
+      </class> <!-- testngDay3.LoginTestsGroups3 -->
+    </test> <!-- Test Group -->
+  </suite> <!-- Grouping -->
 </testng-results>

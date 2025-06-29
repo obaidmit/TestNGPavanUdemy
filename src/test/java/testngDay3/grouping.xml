@@ -1,0 +1,23 @@
+<suite name="Grouping">
+	<test name="Test Group">
+		
+			<groups>
+				<run>
+			<!--	<include name="sanity"></include>  -->
+					<include name= "functional"></include>      <!--this is combinational suite, Sanity & Regression TC named functional-->
+			<!---	<exclude name="regression"></exclude>  -->
+				</run>
+			</groups>
+
+
+		<classes>
+			<class name="testngDay3.LoginTestsGroups"></class>
+			<class name="testngDay3.LoginTestsGroups2"></class>
+			<class name="testngDay3.LoginTestsGroups3"></class>
+
+
+		</classes>
+
+
+	</test>
+</suite>
