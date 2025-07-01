@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngDay4.ParallelTesting">
+      <class name="testngDay5.OrangeHRM">
         <methods>
-          <include name="testUrl"/>
-          <include name="setup"/>
-          <include name="testLogo"/>
-          <include name="tearDown"/>
           <include name="testTitle"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginText"/>
         </methods>
-      </class> <!-- testngDay4.ParallelTesting -->
+      </class> <!-- testngDay5.OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
